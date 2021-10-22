@@ -13,11 +13,10 @@ fun main() {
     val message: String
     val isRun = true
 
-    if(isRun) {
+    if (isRun) {
         message = "Success"
         println(message)
-    }
-    else {
+    } else {
         message = "Failed"
         println(message)
     }

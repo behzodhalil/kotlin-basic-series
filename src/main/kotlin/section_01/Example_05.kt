@@ -8,6 +8,9 @@ fun main() {
 
     val message = arrayListOf("Kotlin")
 
+    // arrayListOf:
+    // It is used to create a new ArrayList
+
     // Mutates the object pointed to by the reference
     message.add("Swift")
     println(message)

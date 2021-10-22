@@ -10,11 +10,13 @@ fun main() {
     var numberTwo = 11
 
     // prints a result of max
-    showResult(showMax(numberOne,numberTwo))
+    showResult(showMax(numberOne, numberTwo))
     // prints a result of min
-    showResult(showMin(numberOne,numberTwo))
+    showResult(showMin(numberOne, numberTwo))
 }
 
-fun showMax(n1: Int, n2: Int): Int = if(n1>n2) n1 else n2
-fun showMin(n1: Int, n2: Int): Int = if(n1<n2) n2 else n1
-fun showResult(int: Int) { println(int)}
+fun showMax(n1: Int, n2: Int): Int = if (n1 > n2) n1 else n2
+fun showMin(n1: Int, n2: Int): Int = if (n1 < n2) n2 else n1
+fun showResult(int: Int) {
+    println(int)
+}
