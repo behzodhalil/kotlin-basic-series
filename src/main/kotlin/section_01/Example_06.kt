@@ -26,5 +26,4 @@ fun main(args: Array<String>) {
 
     println("Hello, again! Elements of array is ${if (array.isNotEmpty()) array.size else "Task is finished!"}")
 
-
 }
