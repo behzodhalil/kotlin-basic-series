@@ -1,6 +1,5 @@
 package section_01
 
-import com.sun.org.apache.xpath.internal.XPathAPI.eval
 
 // Expr interface:
 // Expr interface doesn't declare any methods
