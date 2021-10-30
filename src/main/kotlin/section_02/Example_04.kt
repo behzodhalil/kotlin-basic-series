@@ -1,3 +1,4 @@
+@file:JvmName("Section")
 package section_02
 
 // In Kotlin, you don't need to create all those meaningless classes.
